@@ -14,3 +14,10 @@ function evenOrOdd(number) {
         return "Odd"
     }
 }
+
+
+// Even or Odd с использованием тернарного оператора ?
+
+function evenOrOdd2(number) {
+    return number % 2 === 0 ? "Even" : "Odd"
+}
