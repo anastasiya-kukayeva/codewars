@@ -37,3 +37,19 @@ function makeNegative(num) {
 function makeNegative2(num) {
     return num < 0? num : -num
 }
+
+// Convert boolean values to strings 'Yes' or 'No'.
+
+function boolToWord( bool ){
+    if (bool) {
+        return "Yes"
+    } else {
+        return "No"
+    }
+}
+
+// Convert boolean values to strings 'Yes' or 'No' с использованием тернарного оператора ?
+
+function boolToWord2( bool ){
+    return bool? "Yes" : "No"
+}
