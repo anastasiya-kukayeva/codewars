@@ -21,3 +21,19 @@ function evenOrOdd(number) {
 function evenOrOdd2(number) {
     return number % 2 === 0 ? "Even" : "Odd"
 }
+
+// Return Negative
+
+function makeNegative(num) {
+    if (num < 0) {
+        return (num)
+    } else  {
+        return (-num)
+    }
+}
+
+// Return Negative с использованием тернарного оператора ?
+
+function makeNegative2(num) {
+    return num < 0? num : -num
+}
