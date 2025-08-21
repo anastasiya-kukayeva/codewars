@@ -1,6 +1,6 @@
 // Multiply
 
-function multiply(a, b){
+function multiply(a, b) {
     return a * b
 }
 
@@ -27,7 +27,7 @@ function evenOrOdd2(number) {
 function makeNegative(num) {
     if (num < 0) {
         return (num)
-    } else  {
+    } else {
         return (-num)
     }
 }
@@ -35,12 +35,12 @@ function makeNegative(num) {
 // Return Negative с использованием тернарного оператора ?
 
 function makeNegative2(num) {
-    return num < 0? num : -num
+    return num < 0 ? num : -num
 }
 
 // Convert boolean values to strings 'Yes' or 'No'.
 
-function boolToWord( bool ){
+function boolToWord(bool) {
     if (bool) {
         return "Yes"
     } else {
@@ -50,6 +50,18 @@ function boolToWord( bool ){
 
 // Convert boolean values to strings 'Yes' or 'No' с использованием тернарного оператора ?
 
-function boolToWord2( bool ){
-    return bool? "Yes" : "No"
+function boolToWord2(bool) {
+    return bool ? "Yes" : "No"
+}
+
+// Sum of positive
+
+function positiveSum(array) {
+    let sum = 0
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] > 0) {
+            sum += array[i]
+        }
+    }
+    return sum
 }
