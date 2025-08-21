@@ -65,3 +65,12 @@ function positiveSum(array) {
     }
     return sum
 }
+
+// Find the smallest integer in the array
+
+function findSmallestInt(arr) {
+        return Math.min(...arr)
+}
+
+let result = findSmallestInt([3, 6, -256])
+console.log(result)
