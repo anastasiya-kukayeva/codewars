@@ -85,3 +85,14 @@ function opposite(number) {
 }
 
 opposite()
+
+// String repeat
+
+function repeatStr(n, s) {
+    if (n <= 0) {
+        return alert('Not Possible')
+    }
+    {
+        return s.repeat(n)
+    }
+}
