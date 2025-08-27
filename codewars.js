@@ -96,3 +96,13 @@ function repeatStr(n, s) {
         return s.repeat(n)
     }
 }
+
+// Reversed String
+function solution(str) {
+    let basic = ""
+    for (let i = str.length-1; i >= 0; i--) {
+        basic = basic + str[i]
+    }
+    return basic
+}
+
