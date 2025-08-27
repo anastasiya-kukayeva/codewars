@@ -100,7 +100,7 @@ function repeatStr(n, s) {
 // Reversed String
 function solution(str) {
     let basic = ""
-    for (let i = str.length-1; i >= 0; i--) {
+    for (let i = str.length - 1; i >= 0; i--) {
         basic = basic + str[i]
     }
     return basic
